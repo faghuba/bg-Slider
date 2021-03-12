@@ -4,7 +4,7 @@
 
 body {
     align-items: center;
-    background-image: url('/img/img2.jpg');
+    /* background-image: url('/img/img2.jpg'); */
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -13,7 +13,7 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
-    transition: 0.4s ease;
+    transition: 0.4s;
 }
 
 body::before {
@@ -57,7 +57,7 @@ body::before {
     border: 2px solid orange;
     color: white;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 2em;
     padding: 20px;
     position: fixed;
     top: 50%;
